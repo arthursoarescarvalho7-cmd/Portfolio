@@ -1,2 +1,17 @@
-# Portfolio
-Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido para apresentar meus projetos, experiências profissionais e habilidades na área de desenvolvimento. O objetivo principal deste projeto é servir como um cartão de visitas digital interativo e de alto desempenho para recrutadores, clientes e parceiros.
+Portfólio Pessoal
+
+Repositório do meu portfólio profissional digital.
+
+Tecnologias
+
+HTML5, CSS3, JavaScript (Vanilla).
+
+Como Executar
+
+Clone o repositório.
+
+Abra o arquivo index.html no seu navegador ou via Live Server.
+
+Acesso Online
+
+Link do Deploy
