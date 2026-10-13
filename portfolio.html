@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arthur | Portfólio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/portfolio.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><button type="button" class="ativa" data-alvo="sobre mim" data-i18n="nav-sobre">Sobre Mim</button></li>
+                    <li><button type="button" data-alvo="projetos" data-i18n="nav-projetos">Projetos</button></li>
+                    <li><button type="button" data-alvo="experiencias" data-i18n="nav-experiencias">Experiências</button></li>
+                    <li><button type="button" data-alvo="contatos" data-i18n="nav-contatos">Contatos</button></li>
+                </ul>
+            </nav>
+            <div class="container-idioma">
+                <svg class="icone-globo" xmlns="https://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                <button type="button" id="botao-idioma" class="interruptor-idioma" aria-label="Alterar idioma">
+                    <span class="opcao-lang pt ativo" data-lang="pt">PT</span>
+                    <span class="opcao-lang en" data-lang="en">EN</span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="aba ativa" id="sobre mim">
+                <div class="perfil">
+                    <div class="coluna-lateral">
+                        <img class="imagem-perfil" src="img/perfil.png">
+                        <div class="indices">
+                            <div class="container-lateral-duplo">
+                                <span class="selo-habilidades" data-i18n="habilidades-titulo">Habilidades</span>
+                                <ul class="lista-lateral">
+                                    <li><span data-i18n="habilidade1">-Organização</span></li>
+                                    <li><span data-i18n="habilidade2">-Trabalho em equipe</span></li>
+                                    <li><span data-i18n="habilidade3">-Comunicação clara</span></li>
+                                    <li><span data-i18n="habilidade4">-Fácil aprendizagem</span></li>
+                                </ul>
+                                <span class="selo-linguagens" data-i18n="linguagens-titulo">Linguagens</span>
+                                <ul class="lista-lateral">
+                                    <li><span>-C</span></li>
+                                    <li><span>-C++</span></li>
+                                    <li><span>-Java</span></li>
+                                    <li><span>-JavaScript</span></li>
+                                    <li><span>-HTML</span></li>
+                                    <li><span>-CSS</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <section id="projetos" class="tela">
+                        <span class="selo">status</span>
+                        <h1 class="titulo">Arthur Soares de Carvalho</h1>
+                        <p>
+                            <strong class="subtitulo1" data-i18n="apresentacao-titulo">Apresentação</strong>
+                            <p>
+                                <h5 data-i18n="apresentacao-texto">Sou graduando do 2° período do curso de Ciências da Computação da PUC Minas - Coreu, 
+                                com experiência acadêmica com a linguagem C, C++, Java, HTML, CSS e JavaScript, além de 
+                                projetos desenvolvidos em discicplinas usando algumas destas linguagens em conjunto do sistema
+                                arduíno, mas estou aberto para aprender conforme seja requisitado na minha trajetória profissional.
+                                <br>
+                                Procuro oportunidades para expandir meu conhecimento técnico sobre a área da tecnologia da 
+                                informação e desenvolver outros projetos que me desafiem e possibilitem a evolução de minhas 
+                                habilidades. Já participo de oficinas e eventos que proporcionam momentos de aprendizado, mas 
+                                também prática, sempre a procura de mais oportunidades como as que eu já participei.</h5>
+                            </p>
+                            <br>
+                            <strong class="subtitulo1" data-i18n="formacao-titulo">Formação</strong>
+                            <p>
+                                <h5 data-i18n="formacao-texto">Desenvolvedor | Ciências da Computação - PUC Minas</h5>
+                            </p>
+                            <br>
+                            <strong class="subtitulo1" data-i18n="interesses-titulo">Interesses</strong>
+                            <p>
+                                <ul>
+                                    <h5 data-i18n="interesses-1"><li>-Design gráfico</li></h5>
+                                    <h5 data-i18n="interesses-2"><li>-Frontend</li></h5>
+                                    <h5 data-i18n="interesses-3"><li>-Processo criativo</li></h5>
+                                </ul>
+                            </p>
+                            <br>
+                            <strong class="subtitulo1" data-i18n="objetivos-titulo">Objetivos Profissionais<span class="subtitulo2">Professional Goals</span></strong>
+                            <p>
+                                <h5 data-i18n="objetivos-texto">Busco uma oportunidade de estágio em desenvolvimento web, com interesse em frontend. Meu objetivo 
+                                é crescer como programador, e mais para frente como Creative Developer, e contribuir com projetos
+                                em que eu possa criar experiências únicas que marcaram os visitantes e/ou usuários de sites toda
+                                vez que eles passarem por ele, seja devido o seu design ou o seu fluxo.</h5>
+                            </p>
+                        </p>
+                    </section>
+                </div>
+            </section>
+
+            <section class="aba" id="projetos">
+                <div id="filtros"></div>
+                <div id="catalogo"></div>
+
+                <div id="modal-projeto" class="modal">
+                    <div class="modal-conteudo">
+                        <button type="button" onclick="fecharProjeto()" data-i18n="modal-voltar">← Voltar</button>
+                        <div id="detalhe"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aba" id="experiencias">
+                <h2 data-i18n="nav-experiencias">Experiências</h2>
+                <div class="linha-tempo" id="linha-tempo">
+                    <div class="bolinha-fixa" id="bolinha-fixa"></div>
+                    <svg id="linha-svg" class="linha-svg" aria-hidden="true">
+                        <path id="linha-caminho" class="linha-caminho" d=""></path>
+                        <path id="linha-progresso" class="linha-progresso" d=""></path>
+                    </svg>
+                    <div id="lista-experiencias"></div>
+                </div>
+            </section>
+
+            <section class="aba" id="contatos" class="tela">
+                <div class="contato-conteudo">
+                    <h2 data-i18n="contatos-texto">Fale Comigo</h2>
+                    <div class="links-contato">
+                        <a class="botao-link" href="mailto:arthursoarescarvalho7@gmail.com"><img src="img/icones/gmail.png" alt="" width="20">E-mail</a>
+                        <a class="botao-link" href="https://wa.me/5531983247201" target="_blank" rel="noopener noreferrer"><img src="img/icones/whatsapp.png" alt="" width="20">Whatsapp</a>
+                        <a class="botao-link" href="https://www.linkedin.com/in/arthur-carvalho-3a1s0d7c/" target="_blank" rel="noopener noreferrer"><img src="img/icones/linkedin.png" alt="" width="20">LinkedIn</a>
+                        <a class="botao-link" href="https://github.com/arthursoarescarvalho7-cmd" target="_blank" rel="noopener noreferrer"><img src="img/icones/github.png" alt="" width="20">GitHub</a>
+                    </div>
+
+                    <form id="form-contato" class="form-contato">
+                        <label for="nome" data-i18n="contatos-nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required minlength="2" data-i18n-placeholder="placeholder-nome" placeholder="Seu nome">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required data-i18n-placeholder="placeholder-email" placeholder="voce@exemplo.com">
+                        <label for="mensagem" data-i18n="contatos-mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required data-i18n-placeholder="placeholder-mensagem" placeholder="Escreva sua mensagem"></textarea>
+                        <button type="submit" id="botao-enviar" data-i18n="botao-enviar">Enviar</button>
+                        <p id="aviso-contato" class="aviso" role="status"></p>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"defer></script>
+        <script src="js/traducao.js" defer></script>
+        <script src="js/dados.js" defer></script>
+        <script src="js/portfolio.js" defer></script>
+        <script src="js/projetos.js" defer></script>
+        <script src="js/contato.js" defer></script>
+        <script src="js/experiencias.js" defer></script>
+        <footer>
+            <p class="rodape"> &copy; 2026 Arhur . Feito com HTML, CSS &amp; JavaScript.</p>
+        </footer>
+    </body>
+</html>
