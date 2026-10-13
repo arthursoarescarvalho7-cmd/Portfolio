@@ -14,9 +14,8 @@ Estrutura de Diretórios
 
 Execução Local
 
-Clone o repositório.
-
-Abra o arquivo index.html no navegador.
+1- Clone o repositório.
+2- Abra o arquivo index.html no navegador.
 
 Deploy
 
