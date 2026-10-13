@@ -1,23 +1,23 @@
-Portfólio
+#Portfólio
 
-Tecnologias
+#Tecnologias
 
 HTML5, CSS3 e JavaScript.
 
-Dependências
+#Dependências
 
 Nenhuma (Web nativa com ícones/assets PNG).
 
-Estrutura de Diretórios
+#Estrutura de Diretórios
 
 /css, /js, /img e index.html.
 
-Execução Local
+#Execução Local
 
 1- Clone o repositório.
 
 2- Abra o arquivo index.html no navegador.
 
-Deploy
+#Deploy
 
 Acesse o site publicado na nuvem em: https://portfolio-hazel-mu-xt88fgx3qj.vercel.app
